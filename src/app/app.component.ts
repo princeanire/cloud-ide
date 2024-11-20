@@ -1,14 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [HomeComponent, HousingLocationComponent],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
+    <header>
+      <img alt="Home header" aria-hidden="true" src="/icon.svg" />
+    </header>
+    <app-home></app-home>
+    <app-housing-location></app-housing-location>
   `,
   styles: [],
 })
