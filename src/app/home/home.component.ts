@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'app-home',
+    imports: [],
+    template: `
   <section>
     <h1>Find a City</h1>
   <form>
@@ -13,7 +12,7 @@ import { Component } from '@angular/core';
   </form>
   </section>
   `,
-  styles: ``
+    styles: ``
 })
 export class HomeComponent {
 

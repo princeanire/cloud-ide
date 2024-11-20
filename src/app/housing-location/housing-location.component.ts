@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-housing-location',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'app-housing-location',
+    imports: [],
+    template: `
     <p>
       housing-location works!
     </p>
   `,
-  styles: ``
+    styles: ``
 })
 export class HousingLocationComponent {
 
